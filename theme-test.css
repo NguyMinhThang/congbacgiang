@@ -1,0 +1,241 @@
+
+/* header */
+.header{
+    display: flex;
+    flex-direction: column;
+    width:100% ;
+}
+.header-banner-img{
+    width: 100%;
+}
+.header-menu{ 
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d6cbb!important;
+    height: 40px;
+    width: 1260px;
+}
+.header-menu-2{ 
+    width: 1260px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    height: 40px;
+}
+.menu-1{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.menu-2{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    background-color: #ccc;
+}
+.mene-item{
+    padding-right: 15px;
+    color: #fff;
+    line-height: 10px;
+}
+.mene-item:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.mene-item-2{
+    padding-right: 15px;
+    color: #1d6cbb;
+    line-height: 10px;
+}
+.time{
+    color: #fff;
+    line-height: 10px;
+}
+.space-white{
+    height: 30px;
+}
+/* content */
+.content{
+    display: flex;
+}
+.content-wrapper{
+    display: flex;
+    margin: auto;
+    width: 1260px;
+}
+.content-container{
+    width: 75%;
+}
+.space-white-content{
+    width: 2%;
+}
+.sidebar{
+    width:23%;
+}
+.slider img{
+    width: 500px;
+    height: 315px;
+}
+.slider-title{
+    background-color: #1d6cbb;
+    margin: 0;
+    color: #fff;
+}
+.block-1{
+    display: flex;
+}
+.menu-tintuc{
+    
+}
+.tintuc-title{
+    background-color: #ccc;
+    margin-left: 20px;
+    padding-left: 10px;
+    color:#1d6cbb;
+    margin-top:0;
+    margin-bottom:0;
+    padding: 8px;
+}
+.menu-tintuc-item{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dotted;
+}
+.menu-tintuc-item:hover {
+    color: #1d6cbb;
+    cursor: pointer;
+}
+.bando{
+    width: 100%;
+    height: 180px;
+}
+.ctt{
+    width: 100%;
+    height: 280px;
+}
+.block-2{
+    list-style: none;
+    margin-top: 10px;
+}
+.block-2-menu{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.block-2-img{
+    width: 160px;
+    height: 95px;
+}
+.block-2-menu-item{
+  display: flex;
+  flex-direction: column;
+}
+.text-ellipsis{
+   width: 160px;
+   margin: 0;
+   text-align:justify;
+}
+.text-ellipsis:hover {
+    color: #1d6cbb;
+    cursor: pointer;
+}
+.block-3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.block-3-item img{
+    width: 465px;
+    height: 102px;
+}
+.block-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block-4 .menu-tintuc{
+    padding-left: 28px;
+}
+.block-4 .menu-tintuc-item{
+    border: none;
+}
+.block-title-tintuc{
+    display: flex;
+    justify-content: space-between;
+    line-height: 28px;
+}
+.block-tintuc{
+    display: flex;
+}
+.title-tintuc-1{
+    display: flex;
+    font-size:15px;
+    margin-right: 2px;
+}
+.title-tintuc-2{
+    display: flex;
+    font-size:15px;
+}
+.title-tintuc-2 .title-tintuc-item2{
+    padding-right: 36px;
+}
+.title-tintuc-item{
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #1d6cbb;
+  color: #fff;
+}
+.title-tintuc-item2{
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #e7eaec;
+    color: #1d6cbb;
+}
+.block-5-title{
+    background-color:#1d6cbb;
+    color: #fff;
+    line-height: 28px;
+    padding-left: 5px;
+}
+.block-5{
+    display: flex;
+    justify-content: space-around;
+}
+.block-5-col{
+    padding-right: 70px;
+    border-right: 1px solid #ccc;
+}
+.col-item:hover {
+    color: #1d6cbb;
+    cursor: pointer;
+}
+.block-5-col-end{
+    border: none;
+}
+.sidebar-title{
+    background-color:#1d6cbb;
+    color: #fff;
+    line-height: 28px;
+    padding-left: 5px;
+    text-align: center;
+}
+.sidebar-block-1{
+    border: 3px solid #1d6cbb;
+    padding-left: 20px;
+    color: #1d6cbb;
+    font-weight: 700;
+}
+.img-lienket{
+    width: 290px;
+    height: 76px;
+}
+.img-btn-lienket{
+    width: 290px;
+}
+.footer{
+    padding-top: 50px;
+}
